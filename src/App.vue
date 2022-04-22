@@ -31,7 +31,7 @@
           >
         </div>
         <div>
-          <span class="hover:cursor-pointer" @click="scrollToSection(2)"
+          <span class="hover:cursor-pointer" @click="scrollToSection(3)"
             >ABOUT US</span
           >
         </div>
@@ -48,7 +48,7 @@
     </div>
     <HomeComponent />
     <GameComponent />
-    <!--<NFTComponent data-anchor="Page 3" /> -->
+    <NFTComponent data-anchor="Page 3" />
     <AboutComponent />
   </main>
 </template>
@@ -58,7 +58,7 @@
   import HomeComponent from './components/HomeComponent.vue'
   import { useHead } from '@vueuse/head'
   import logo from '/src/assets/logo-header.png'
-  // import NFTComponent from './components/NFTComponent.vue'
+  import NFTComponent from './components/NFTComponent.vue'
   import AboutComponent from './components/AboutComponent.vue'
   import GameComponent from './components/GameComponent.vue'
   import DKIcon from './components/DKIcon.vue'

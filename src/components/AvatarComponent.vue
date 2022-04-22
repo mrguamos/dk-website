@@ -4,7 +4,7 @@
       data-aos="zoom-in"
       data-aos-duration="3000"
       class="inline-block h-24 w-24 lg:h-40 lg:w-40 rounded-full ring-2 ring-white"
-      src="/src/assets/avatar.png"
+      src="/src/assets/avatar3.png"
       alt=""
     />
 

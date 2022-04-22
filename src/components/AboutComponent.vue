@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:w-screen tall:h-screen lg:h-screen items-center bg-[url('src/assets/bg3.jpg')] bg-no-repeat bg-left lg:bg-center lg:bg-cover"
+    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:w-screen tall:h-screen lg:h-screen items-center bg-[url('src/assets/bg4.jpg')] bg-no-repeat bg-right lg:bg-center lg:bg-cover"
     id="about"
   >
     <div class="flex w-full h-full flex-col mx-auto container">
@@ -65,21 +65,28 @@
 
 <style scoped>
   .shine {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+    display: inline-block;
     position: relative;
-    background: linear-gradient(90deg, gray, #fff, #000);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 3s infinite;
-    background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    mask-image: linear-gradient(
+      -75deg,
+      rgba(0, 0, 0, 0.6) 30%,
+      #000 50%,
+      rgba(0, 0, 0, 0.6) 70%
+    );
+    mask-size: 200%;
+    animation: shine 2s linear infinite;
   }
 
-  @keyframes animate {
-    0% {
-      background-position: -500%;
+  @keyframes shine {
+    from {
+      -webkit-mask-position: 150%;
     }
-    100% {
-      background-position: 500%;
+    to {
+      -webkit-mask-position: -50%;
     }
   }
 </style>

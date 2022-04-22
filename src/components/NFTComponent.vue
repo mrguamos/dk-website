@@ -1,34 +1,32 @@
 <template>
   <section
-    class="flex flex-col md:min-h-screen w-screen h-screen short:pt-10 tall:pt-0 short:w-full short:h-full tall:w-full tall:h-full lg:w-screen lg:h-screen justify-center bg-[url('src/assets/bg3.png')] bg-left bg-no-repeat bg-cover"
+    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:w-screen tall:h-screen lg:h-screen justify-center bg-[url('src/assets/bg3.jpg')] bg-left bg-no-repeat bg-cover"
     id="nft"
   >
     <div
       class="grid md:grid-cols-1 lg:grid-cols-2 items-center gap-10 mx-auto container px-10 lg:px-0"
     >
-      <img
-        data-aos="fade-right"
-        data-aos-duration="3000"
-        src="/src/assets/inventory.png"
-        class="w-full h-auto"
-      />
-
-      <div
-        data-aos="fade-left"
-        data-aos-duration="3000"
-        class="flex text-center flex-col w-full justify-center items-center"
-      >
-        <span class="uppercase text-sm lg:text-base">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </span>
+      <div class="flex flex-col w-full h-full justify-center items-center">
+        <img
+          data-aos="fade-down"
+          data-aos-duration="3000"
+          src="/src/assets/commander.png"
+          class="lg:w-[35%] w-[40%]"
+        />
+        <span class="font-cafe-matcha text-6xl uppercase text-teal-700"
+          >COMMANDER</span
+        >
+      </div>
+      <div class="flex flex-col w-full h-full justify-center items-center">
+        <img
+          data-aos="fade-up"
+          data-aos-duration="3000"
+          src="/src/assets/knight.png"
+          class="lg:w-[35%] w-[40%]"
+        />
+        <span class="font-cafe-matcha text-6xl uppercase text-yellow-700"
+          >KNIGHT</span
+        >
       </div>
     </div>
   </section>
