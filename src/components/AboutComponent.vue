@@ -12,43 +12,58 @@
       <div
         class="w-full h-full flex justify-center items-center gap-10 lg:gap-32 mt-10 lg:mt-0"
       >
-        <AvatarComponent
-          ><div
+        <AvatarComponent>
+          <template v-slot:name>
+            <span class="">RY</span>
+          </template>
+          <div
             class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
           >
-            <span>Ry</span> <span>LEAD</span><span>DEVELOPER</span>
+            <span>LEAD</span><span>DEVELOPER</span>
           </div></AvatarComponent
         >
-        <AvatarComponent
-          ><div
+        <AvatarComponent>
+          <template v-slot:name>
+            <span class="">ROL</span>
+          </template>
+          <div
             class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
           >
-            <span>We</span> <span>FULL STACK</span><span>DEVELOPER</span>
+            <span>FULL STACK</span><span>DEVELOPER</span>
           </div></AvatarComponent
         >
-        <AvatarComponent
-          ><div
+        <AvatarComponent>
+          <template v-slot:name>
+            <span class="">WE</span>
+          </template>
+          <div
             class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
           >
-            <span>Rol</span> <span>FULL STACK</span><span>DEVELOPER</span>
+            <span>FULL STACK</span><span>DEVELOPER</span>
           </div></AvatarComponent
         >
       </div>
       <div
         class="w-full h-full flex justify-center items-center gap-10 mt-0 md:mt-10 lg:gap-32 lg:mt-0"
       >
-        <AvatarComponent
-          ><div
+        <AvatarComponent>
+          <template v-slot:name>
+            <span class="">DREW</span>
+          </template>
+          <div
             class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
           >
-            <span>Drew</span> <span>PROJECT</span><span>MANAGER</span>
+            <span>PROJECT</span><span>MANAGER</span>
           </div></AvatarComponent
         >
-        <AvatarComponent
-          ><div
+        <AvatarComponent>
+          <template v-slot:name>
+            <span class="">YAN</span>
+          </template>
+          <div
             class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
           >
-            <span>Yan</span> <span>NFT</span><span>ARTIST</span>
+            <span>NFT</span><span>ARTIST</span>
           </div></AvatarComponent
         >
       </div>
