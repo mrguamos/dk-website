@@ -18,6 +18,7 @@ export const createApp = ViteSSG(
       AOS.init({
         debounceDelay: 500,
         mirror: true,
+        disable: window.innerHeight < 700,
       })
     }
   }

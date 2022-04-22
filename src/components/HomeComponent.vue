@@ -16,7 +16,7 @@
         </span>
       </div>
       <a href="https://game.defiknight.io/" target="_blank">
-        <img src="/src/assets/start.png" class="w-96" />
+        <img src="/src/assets/start.png" class="w-96 short:mb-10" />
       </a>
     </div>
     <!-- <div class="flex relative h-full w-full">

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:w-screen tall:h-screen lg:h-screen items-center bg-[url('src/assets/bg3.png')] bg-no-repeat bg-left lg:bg-center lg:bg-cover"
+    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:w-screen tall:h-screen lg:h-screen items-center bg-[url('src/assets/bg3.jpg')] bg-no-repeat bg-left lg:bg-center lg:bg-cover"
     id="about"
   >
     <div class="flex w-full h-full flex-col mx-auto container">
