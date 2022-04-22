@@ -12,7 +12,7 @@
       <div class="max-w-sm text-center">
         <span class="font-cafe-matcha text-6xl uppercase">
           A <span class="text-yellow-500 animate-pulse">PLAY TO EARN </span>
-          MEDIEVAL FANTASY NFT GAME
+          FANTASY MEDIEVAL NFT GAME
         </span>
       </div>
       <a href="https://game.defiknight.io/" target="_blank">
