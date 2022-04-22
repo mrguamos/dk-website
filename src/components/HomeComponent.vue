@@ -9,14 +9,14 @@
       data-aos-duration="3000"
     >
       <img src="/src/assets/logo-header.png" class="w-96" />
-      <div class="w-full text-center">
+      <div class="w-full max-w-xl lg:max-w-full text-center">
         <span class="font-cafe-matcha text-6xl uppercase">
           A <span class="text-yellow-500 animate-pulse">PLAY TO EARN </span>
           FANTASY MEDIEVAL NFT GAME
         </span>
       </div>
       <a href="https://game.defiknight.io/" target="_blank">
-        <img src="/src/assets/start.png" class="w-96 short:mb-10" />
+        <img src="/src/assets/start.png" class="w-96 short:mb-10 tall:mb-0" />
       </a>
     </div>
     <!-- <div class="flex relative h-full w-full">
