@@ -1,0 +1,9 @@
+{
+  "recommendations": [
+    "johnsoncodehk.volar", 
+    "esbenp.prettier-vscode", 
+    "dbaeumer.vscode-eslint", 
+    "irongeek.vscode-env",
+    "johnsoncodehk.vscode-typescript-vue-plugin"
+  ]
+}

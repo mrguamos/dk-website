@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: 'CafeMatcha';
+    src: url('/src/assets/fonts/cafe-matcha.ttf') ;
+  }
+}
+
+html {
+  @apply scroll-smooth;
+  /* overflow: hidden */
+}
+
+body {
+  @apply font-serif text-white bg-[#030a2d];
+}
+
+.bg-100 {
+  background-size: 100% 100%;
+}
