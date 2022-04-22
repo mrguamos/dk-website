@@ -39,7 +39,7 @@
           <div
             ref="contract"
             @click="copyText('0x6f6ab3520a41438292573e16fdb16fdc1e889b75')"
-            class="text-yellow-500 text-base lg:text-2xl border-2 rounded-full shadow-sm border-white px-4 py-1 hover:cursor-pointer hover:bg-white/50 short:mb-10 tall:mb-0"
+            class="text-yellow-500 text-base md:text-2xl border-2 rounded-full shadow-sm border-white px-4 py-1 hover:cursor-pointer hover:bg-white/50 short:mb-10 tall:mb-0"
           >
             <span>0x6f6ab3520a41438292573e16fdb16fdc1e889b75</span>
           </div>
