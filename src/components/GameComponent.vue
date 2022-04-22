@@ -32,7 +32,7 @@
           data-aos-duration="3000"
           class="flex flex-col gap-5"
         >
-          <span class="text-4xl md:text-5xl text-teal-700 font-bold"
+          <span class="text-4xl text-teal-700 font-bold"
             >OFFICIAL CONTRACT</span
           >
 

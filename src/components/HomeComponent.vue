@@ -9,7 +9,7 @@
       data-aos-duration="3000"
     >
       <img src="/src/assets/logo-header.png" class="w-96" />
-      <div class="max-w-sm text-center">
+      <div class="w-full text-center">
         <span class="font-cafe-matcha text-6xl uppercase">
           A <span class="text-yellow-500 animate-pulse">PLAY TO EARN </span>
           FANTASY MEDIEVAL NFT GAME
