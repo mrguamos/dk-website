@@ -12,6 +12,8 @@
           data-aos-duration="3000"
           src="/src/assets/emblems.png"
           class="w-full"
+          width="900"
+          height="900"
         />
       </div>
       <div
