@@ -11,7 +11,8 @@
   "dependencies": {
     "@popperjs/core": "^2.11.5",
     "aos": "^3.0.0-beta.6",
-    "vue": "^3.2.31"
+    "vue": "^3.2.31",
+    "vue3-carousel": "^0.1.38"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-svg-core": "1.2.34",

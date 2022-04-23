@@ -79,31 +79,3 @@
   import AvatarComponent from './AvatarComponent.vue'
   import FooterComponent from './FooterComponent.vue'
 </script>
-
-<style scoped>
-  .shine {
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    display: inline-block;
-    position: relative;
-    mask-image: linear-gradient(
-      -75deg,
-      rgba(0, 0, 0, 0.6) 30%,
-      #000 50%,
-      rgba(0, 0, 0, 0.6) 70%
-    );
-    mask-size: 200%;
-    animation: shine 2s linear infinite;
-  }
-
-  @keyframes shine {
-    from {
-      -webkit-mask-position: 150%;
-    }
-    to {
-      -webkit-mask-position: -50%;
-    }
-  }
-</style>

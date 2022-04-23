@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faBars, faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import 'vue3-carousel/dist/carousel.css'
 
 library.add(faBars, faExternalLinkAlt)
 
@@ -17,7 +18,6 @@ export const createApp = ViteSSG(
     if (isClient) {
       AOS.init({
         debounceDelay: 500,
-        mirror: true,
         disable: window.innerHeight < 700,
       })
     }

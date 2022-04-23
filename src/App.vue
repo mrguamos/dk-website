@@ -16,24 +16,16 @@
       </div>
       <div class="gap-5 mr-5 hidden lg:flex">
         <div>
-          <span class="hover:cursor-pointer" @click="scrollToSection(0)"
-            >HOME</span
-          >
+          <a href="#home">HOME</a>
         </div>
         <div>
-          <span class="hover:cursor-pointer" @click="scrollToSection(1)"
-            >GAME</span
-          >
+          <a href="#game">GAME</a>
         </div>
         <div>
-          <span class="hover:cursor-pointer" @click="scrollToSection(2)"
-            >NFTS</span
-          >
+          <a href="#nft">NFTS</a>
         </div>
         <div>
-          <span class="hover:cursor-pointer" @click="scrollToSection(3)"
-            >ABOUT US</span
-          >
+          <a href="#about">ABOUT US</a>
         </div>
         <div>
           <a href="https://admin-162.gitbook.io/internal-wiki/" target="_blank">
@@ -48,7 +40,7 @@
     </div>
     <HomeComponent />
     <GameComponent />
-    <NFTComponent data-anchor="Page 3" />
+    <NFTComponent />
     <AboutComponent />
   </main>
 </template>
@@ -62,9 +54,6 @@
   import AboutComponent from './components/AboutComponent.vue'
   import GameComponent from './components/GameComponent.vue'
   import DKIcon from './components/DKIcon.vue'
-  import { useScrollHandler } from './composable/useScrollHandler'
-
-  const { scrollToSection } = useScrollHandler()
 
   useHead({
     meta: [
@@ -109,14 +98,10 @@
 
   const scroll = ref(false)
   onMounted(async () => {
-    const { mountHandler } = useScrollHandler()
-    // mountHandler()
     window.addEventListener('scroll', scrollListener)
   })
 
   onUnmounted(() => {
-    const { unmountHandler } = useScrollHandler()
-    // unmountHandler()
     window.removeEventListener('scroll', scrollListener)
   })
 </script>
