@@ -11,7 +11,7 @@
           data-aos="fade-right"
           data-aos-duration="3000"
           src="/src/assets/emblems.png"
-          class="aspect-[1/1]"
+          class="w-full"
         />
       </div>
       <div
