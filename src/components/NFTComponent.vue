@@ -38,7 +38,7 @@
           class="flex h-full flex-col w-full justify-start lg:justify-center items-center"
         >
           <span
-            class="text-orange-400 text-4xl lg:text-6xl text-center font-cafe-matcha uppercase"
+            class="text-white text-4xl lg:text-6xl text-center font-cafe-matcha uppercase"
             >MINT NOW AND HAVE
             <span class="text-blue-700 animate-ping absolute">FULL</span
             ><span class="text-blue-700 relative">FULL</span> OWNERSHIP OF YOUR
