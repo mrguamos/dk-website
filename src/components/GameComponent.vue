@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:w-screen tall:h-screen lg:h-screen items-center justify-center bg-[url('src/assets/bg2.jpg')] bg-right bg-no-repeat bg-cover"
+    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:h-screen lg:h-screen items-center justify-center bg-[url('src/assets/bg2.jpg')] bg-right bg-no-repeat bg-cover"
     id="game"
   >
     <div

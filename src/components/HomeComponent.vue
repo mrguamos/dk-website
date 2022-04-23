@@ -1,6 +1,6 @@
 <template>
   <section
-    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:w-screen tall:h-screen lg:h-screen items-center justify-center gap-20 bg-[url('/src/assets/bg.jpg')] bg-no-repeat bg-cover bg-center"
+    class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:h-screen lg:h-screen items-center justify-center gap-20 bg-[url('/src/assets/bg.jpg')] bg-no-repeat bg-cover bg-center"
     id="home"
   >
     <div
