@@ -46,6 +46,19 @@
             <span class="text-yellow-500">KNIGHTS</span> AND START
             <span class="text-red-500">EARNING </span>TOKENS
           </span>
+          <a href="https://game.defiknight.io/" target="_blank">
+            <div
+              class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
+            >
+              <span class="absolute text-2xl font-bold text-white"
+                >PLAY NOW</span
+              >
+
+              <video class="object-cover" autoplay loop muted playsinline>
+                <source :src="flame" type="video/mp4" />
+              </video>
+            </div>
+          </a>
         </div>
       </div>
     </div>
@@ -65,14 +78,13 @@
   import k3 from '/src/assets/knights/k3.png'
   import k4 from '/src/assets/knights/k4.png'
   import k5 from '/src/assets/knights/k5.png'
-  import AOS from 'aos'
+  import flame from '/src/assets/flame.mp4'
 
   const innerWidth = ref(0)
   onMounted(() => {
     innerWidth.value = window.innerWidth
     window.addEventListener('resize', () => {
       innerWidth.value = window.innerWidth
-      AOS.refresh()
     })
   })
 

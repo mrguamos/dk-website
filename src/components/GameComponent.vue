@@ -43,14 +43,6 @@
           >
             <span>0x0000000000000000000000000000000000000000</span>
           </div>
-          <div
-            class="inline-flex relative w-56 h-16 justify-center items-center self-center text-lg mt-5 rounded-full border-4 overflow-hidden"
-          >
-            <span class="absolute">PLAY NOW</span>
-            <video class="object-cover" autoplay loop muted>
-              <source src="/src/assets/golden.mp4" type="video/mp4" />
-            </video>
-          </div>
         </div>
       </div>
     </div>
