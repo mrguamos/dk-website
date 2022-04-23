@@ -3,22 +3,22 @@
     class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:h-screen justify-center bg-[url('src/assets/bg3.jpg')] bg-left bg-no-repeat bg-cover"
     id="nft"
   >
-    <div class="flex justify-center w-full mx-auto container mt-10 lg:mt-24">
-      <span class="text-6xl text-white font-cafe-matcha shine"
-        >CHARACTERS
-      </span>
-    </div>
-    <div
-      class="w-full h-full grid md:grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-20 mx-auto container px-10 lg:px-0"
-    >
-      <client-only>
+    <div class="flex flex-col w-full bg-teal-900 bg-opacity-20 relative p-10">
+      <div class="flex mb-10 justify-center w-full mx-auto container">
+        <span class="text-6xl text-white font-cafe-matcha shine"
+          >CHARACTERS
+        </span>
+      </div>
+      <div
+        class="w-full h-full grid md:grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-20 mx-auto container px-10 lg:px-0"
+      >
         <div
           class="w-full flex flex-col justify-center"
           data-aos="fade-right"
           data-aos-duration="3000"
         >
           <Carousel
-            :itemsToShow="innerWidth <= 640 ? 1 : 2.5"
+            :itemsToShow="innerWidth <= 640 ? 1 : 2.4"
             :wrapAround="true"
           >
             <Slide v-for="slide of slides" :key="slide">
@@ -31,21 +31,22 @@
             </template>
           </Carousel>
         </div>
-      </client-only>
-      <div
-        data-aos="fade-left"
-        data-aos-duration="3000"
-        class="flex h-full flex-col w-full justify-start lg:justify-center items-center short:mb-10 tall:mb-0"
-      >
-        <span
-          class="text-orange-400 text-4xl lg:text-6xl text-center font-cafe-matcha uppercase"
-          >MINT NOW AND HAVE
-          <span class="text-blue-700 animate-ping absolute">FULL</span
-          ><span class="text-blue-700 relative">FULL</span> OWNERSHIP OF YOUR
-          <span class="text-teal-700">COMMANDERS</span> AND
-          <span class="text-yellow-500">KNIGHTS</span> AND START
-          <span class="text-red-500">EARNING </span>TOKENS
-        </span>
+
+        <div
+          data-aos="fade-left"
+          data-aos-duration="3000"
+          class="flex h-full flex-col w-full justify-start lg:justify-center items-center"
+        >
+          <span
+            class="text-orange-400 text-4xl lg:text-6xl text-center font-cafe-matcha uppercase"
+            >MINT NOW AND HAVE
+            <span class="text-blue-700 animate-ping absolute">FULL</span
+            ><span class="text-blue-700 relative">FULL</span> OWNERSHIP OF YOUR
+            <span class="text-teal-700">COMMANDERS</span> AND
+            <span class="text-yellow-500">KNIGHTS</span> AND START
+            <span class="text-red-500">EARNING </span>TOKENS
+          </span>
+        </div>
       </div>
     </div>
   </section>
@@ -64,12 +65,14 @@
   import k3 from '/src/assets/knights/k3.png'
   import k4 from '/src/assets/knights/k4.png'
   import k5 from '/src/assets/knights/k5.png'
+  import AOS from 'aos'
 
   const innerWidth = ref(0)
   onMounted(() => {
     innerWidth.value = window.innerWidth
     window.addEventListener('resize', () => {
       innerWidth.value = window.innerWidth
+      AOS.refresh()
     })
   })
 

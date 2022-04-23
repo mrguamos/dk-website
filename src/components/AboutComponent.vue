@@ -4,7 +4,7 @@
     id="about"
   >
     <div class="flex w-full h-full flex-col mx-auto container">
-      <div class="w-full flex justify-center items-end mt-10 lg:mt-24">
+      <div class="w-full flex justify-center items-end tall:mt-10 lg:mt-24">
         <span class="text-6xl text-white font-cafe-matcha shine"
           >THE TEAM
         </span>
