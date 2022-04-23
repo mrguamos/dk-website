@@ -23,7 +23,7 @@
           >
             <Slide v-for="slide of slides" :key="slide">
               <div class="carousel__item flex justify-center">
-                <img :src="slide" class="w-[70%] md:w-[90%]" />
+                <img :src="slide" class="w-40 md:w-60" />
               </div>
             </Slide>
             <template #addons>
