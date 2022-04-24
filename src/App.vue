@@ -88,7 +88,7 @@
     ],
     script: [
       {
-        async: true,
+        async: '',
         src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3072480337071983',
         crossorigin: 'anonymous',
       },
