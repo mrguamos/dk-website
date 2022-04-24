@@ -12,6 +12,7 @@
     "@popperjs/core": "^2.11.5",
     "aos": "^3.0.0-beta.6",
     "vue": "^3.2.31",
+    "vue-gtag": "^2.0.1",
     "vue3-carousel": "^0.1.38"
   },
   "devDependencies": {

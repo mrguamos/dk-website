@@ -86,12 +86,6 @@
         content: 'website',
       },
     ],
-    script: [
-      {
-        async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=G-9JVRHW9TRZ',
-      },
-    ],
   })
 
   const scrollListener = () => {
