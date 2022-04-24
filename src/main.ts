@@ -9,6 +9,11 @@ import 'aos/dist/aos.css'
 import 'vue3-carousel/dist/carousel.css'
 
 library.add(faBars, faExternalLinkAlt)
+declare const window: any
+
+function gtag(...args: any[]) {
+  window.dataLayer.push(args)
+}
 
 export const createApp = ViteSSG(
   App,
@@ -16,6 +21,11 @@ export const createApp = ViteSSG(
   ({ app, isClient }) => {
     app.component('FontAwesomeIcon', FontAwesomeIcon)
     if (isClient) {
+      window.dataLayer = window.dataLayer || []
+
+      gtag('js', new Date())
+
+      gtag('config', 'G-9JVRHW9TRZ')
       AOS.init({
         debounceDelay: 500,
         disable: window.innerHeight < 700,
