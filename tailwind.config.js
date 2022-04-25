@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'cafe-matcha': ['CafeMatcha'],
+        'pirata-one': ['Pirata One'],
       },
       screens: {
         short: { raw: '(min-height: 300px)' },

@@ -49,7 +49,7 @@
   import { onMounted, onUnmounted, ref } from 'vue'
   import HomeComponent from './components/HomeComponent.vue'
   import { useHead } from '@vueuse/head'
-  import logo from '/src/assets/logo-header.png'
+  import logo from '/src/assets/logo-header1.png'
   import NFTComponent from './components/NFTComponent.vue'
   import AboutComponent from './components/AboutComponent.vue'
   import GameComponent from './components/GameComponent.vue'

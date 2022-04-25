@@ -12,7 +12,7 @@
     <div class="flex justify-center items-center text-center mb-2 lg:mb-0">
       <span> Copyright 2022 by DefiKnight, All rights reserved.</span>
     </div>
-    <img src="/src/assets/logo-header.png" class="w-40" />
+    <img src="/src/assets/logo-header1.png" class="w-40" />
   </div>
 </template>
 

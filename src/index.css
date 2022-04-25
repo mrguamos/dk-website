@@ -1,13 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: 'CafeMatcha';
-    src: url('/src/assets/fonts/cafe-matcha.ttf') ;
-  }
-}
 
 html, body {
   @apply scroll-smooth font-serif text-white bg-[#030a2d] overflow-x-hidden;

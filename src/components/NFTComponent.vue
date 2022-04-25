@@ -3,17 +3,19 @@
     class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:h-screen justify-center bg-[url('src/assets/bg3.jpg')] bg-left bg-no-repeat bg-cover"
     id="nft"
   >
-    <div class="flex flex-col w-full bg-teal-900 bg-opacity-20 relative p-10">
-      <div class="flex mb-10 justify-center w-full mx-auto container">
-        <span class="text-6xl text-white font-cafe-matcha shine"
+    <div
+      class="flex flex-col w-full bg-teal-900 bg-opacity-20 relative px-10 lg:px-0"
+    >
+      <div class="flex lg:mb-10 justify-center w-full p-10">
+        <span class="text-5xl lg:text-6xl text-white font-pirata-one shine"
           >CHARACTERS
         </span>
       </div>
       <div
-        class="w-full h-full grid md:grid-cols-1 lg:grid-cols-2 items-center gap-10 lg:gap-20 mx-auto container px-10 lg:px-0"
+        class="w-full h-full grid md:grid-cols-1 lg:grid-cols-2 items-center lg:gap-10"
       >
         <div
-          class="w-full flex flex-col justify-center"
+          class="w-full flex flex-col justify-center items-center lg:px-20"
           data-aos="fade-right"
           data-aos-duration="3000"
         >
@@ -23,7 +25,7 @@
           >
             <Slide v-for="slide of slides" :key="slide">
               <div class="carousel__item flex justify-center">
-                <img :src="slide" class="w-40 md:w-60" />
+                <img :src="slide" class="w-48 md:w-60" />
               </div>
             </Slide>
             <template #addons>
@@ -35,16 +37,16 @@
         <div
           data-aos="fade-left"
           data-aos-duration="3000"
-          class="flex h-full flex-col w-full justify-start lg:justify-center items-center"
+          class="flex h-full flex-col w-full justify-start lg:justify-center items-center mt-2 lg:mt-0"
         >
           <span
-            class="text-white text-4xl lg:text-6xl text-center font-cafe-matcha uppercase"
+            class="text-white text-4xl lg:text-6xl text-center font-pirata-one uppercase"
             >MINT NOW AND HAVE
-            <span class="text-blue-700 animate-ping absolute">FULL</span
-            ><span class="text-blue-700 relative">FULL</span> OWNERSHIP OF YOUR
-            <span class="text-teal-700">COMMANDERS</span> AND
-            <span class="text-yellow-500">KNIGHTS</span> AND START
-            <span class="text-red-500">EARNING </span>TOKENS
+            <span class="text-[#FFA500] animate-ping absolute">FULL</span
+            ><span class="text-[#FFA500] relative">FULL</span> OWNERSHIP OF YOUR
+            <span class="text-[#FFA500]">COMMANDERS</span> AND
+            <span class="text-[#FFA500]">KNIGHTS</span> AND START
+            <span class="text-[#FFA500]">EARNING </span>TOKENS
           </span>
           <a href="https://game.defiknight.io/" target="_blank">
             <div
@@ -54,8 +56,14 @@
                 >PLAY NOW</span
               >
 
-              <video class="object-cover" autoplay loop muted playsinline>
-                <source :src="flame" type="video/mp4" />
+              <video
+                class="object-contain object-bottom"
+                autoplay
+                loop
+                muted
+                playsinline
+              >
+                <source :src="flare" type="video/mp4" />
               </video>
             </div>
           </a>
@@ -78,7 +86,7 @@
   import k3 from '/src/assets/knights/k3.png'
   import k4 from '/src/assets/knights/k4.png'
   import k5 from '/src/assets/knights/k5.png'
-  import flame from '/src/assets/flame.mp4'
+  import flare from '/src/assets/flare.mp4'
 
   const innerWidth = ref(0)
   onMounted(() => {
@@ -114,5 +122,10 @@
 
   .carousel__slide {
     padding: 10px;
+  }
+
+  .carousel__prev,
+  .carousel__next {
+    @apply bg-teal-700 !important;
   }
 </style>

@@ -4,7 +4,7 @@
     id="game"
   >
     <div
-      class="grid md:grid-cols-1 lg:grid-cols-2 items-center gap-10 mx-auto container lg:px-0"
+      class="grid md:grid-cols-1 lg:grid-cols-2 items-center gap-10 px-10 lg:px-0"
     >
       <div class="place-self-center">
         <img
@@ -22,9 +22,11 @@
           data-aos-duration="3000"
           class="flex flex-wrap"
         >
-          <span class="font-cafe-matcha text-6xl text-white uppercase">
+          <span
+            class="font-pirata-one text-5xl lg:text-7xl text-white uppercase"
+          >
             CREATE THE STRONGEST GUILD AND CONQUER LANDS IN THE
-            <span class="text-red-700">BLOCKCHAIN</span>
+            <span class="text-[#FFA500]">BLOCKCHAIN</span>
           </span>
         </div>
         <div
@@ -32,7 +34,7 @@
           data-aos-duration="3000"
           class="flex flex-col gap-5"
         >
-          <span class="text-4xl text-teal-700 font-bold"
+          <span class="text-3xl lg:text-4xl text-teal-700 font-bold"
             >OFFICIAL CONTRACT</span
           >
 

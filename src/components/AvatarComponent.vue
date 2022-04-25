@@ -9,11 +9,7 @@
       src="/src/assets/avatar3.png"
       alt=""
     />
-    <div
-      class="font-cafe-matcha absolute text-yellow-300 text-3xl lg:text-5xl bottom-20"
-    >
-      <slot name="name"></slot>
-    </div>
+
     <span class="mt-5"> <slot></slot></span>
   </div>
 </template>
