@@ -3,9 +3,7 @@
     class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:h-screen lg:h-screen items-center justify-center bg-[url('src/assets/bg2.jpg')] bg-right bg-no-repeat bg-cover"
     id="game"
   >
-    <div
-      class="grid md:grid-cols-1 lg:grid-cols-2 items-center gap-10 px-10 lg:px-0"
-    >
+    <div class="grid md:grid-cols-1 lg:grid-cols-2 items-center gap-10 px-10">
       <div class="place-self-center">
         <img
           data-aos="fade-right"

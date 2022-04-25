@@ -4,7 +4,7 @@
     id="home"
   >
     <div
-      class="flex flex-col h-full w-full gap-10 justify-center items-center px-10 lg:px-0"
+      class="flex flex-col h-full w-full gap-10 justify-center items-center px-10"
       data-aos="fade-down"
       data-aos-duration="3000"
     >
