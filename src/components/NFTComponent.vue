@@ -3,9 +3,7 @@
     class="flex flex-col md:min-h-screen w-full h-screen short:pt-10 tall:pt-0 short:h-full tall:h-screen justify-center bg-[url('src/assets/bg3.jpg')] bg-left bg-no-repeat bg-cover"
     id="nft"
   >
-    <div
-      class="flex flex-col w-full bg-teal-900 bg-opacity-20 relative px-10 lg:px-0"
-    >
+    <div class="flex flex-col w-full bg-teal-900 bg-opacity-20 relative px-10">
       <div class="flex lg:mb-10 justify-center w-full p-10">
         <span class="text-5xl lg:text-6xl text-white font-pirata-one shine"
           >CHARACTERS
