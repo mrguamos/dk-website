@@ -28,7 +28,7 @@
           <a href="#about">ABOUT US</a>
         </div>
         <div>
-          <a href="https://admin-162.gitbook.io/internal-wiki/" target="_blank">
+          <a href="https://whitepaper.defiknight.io" target="_blank">
             WHITEPAPER
             <FontAwesomeIcon
               :icon="['fas', 'external-link-alt']"
