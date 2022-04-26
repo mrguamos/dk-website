@@ -10,7 +10,7 @@
         </span>
       </div>
       <div
-        class="w-full h-full grid md:grid-cols-1 lg:grid-cols-2 items-center lg:gap-10"
+        class="w-full h-full grid grid-cols-1 lg:grid-cols-2 items-center lg:gap-10"
       >
         <div
           class="w-full flex flex-col justify-center items-center lg:px-20"

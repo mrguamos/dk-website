@@ -10,65 +10,61 @@
           >THE TEAM
         </span>
       </div>
-      <div class="flex flex-col w-full h-full justify-center items-center">
-        <div
-          class="w-full flex justify-center items-center gap-10 lg:gap-32 mt-10 lg:mt-0"
+
+      <div
+        class="justify-center items-center w-full h-full flex lg:gap-32 mt-10 lg:mt-0 flex-wrap lg:flex-nowrap"
+      >
+        <AvatarComponent class="w-1/3 lg:w-auto">
+          <div
+            class="flex text-center flex-col h-full justify-center items-center gap-1"
+          >
+            <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
+              >RY</span
+            >
+            <span>LEAD</span><span>DEVELOPER</span>
+          </div></AvatarComponent
         >
-          <AvatarComponent>
-            <div
-              class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
-            >
-              <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
-                >RY</span
-              >
-              <span>LEAD</span><span>DEVELOPER</span>
-            </div></AvatarComponent
+        <AvatarComponent class="w-1/3 lg:w-auto">
+          <div
+            class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
           >
-          <AvatarComponent>
-            <div
-              class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
+            <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
+              >ROL</span
             >
-              <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
-                >ROL</span
-              >
-              <span>FULL STACK</span><span>DEVELOPER</span>
-            </div></AvatarComponent
-          >
-          <AvatarComponent>
-            <div
-              class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
-            >
-              <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
-                >WE</span
-              >
-              <span>FULL STACK</span><span>DEVELOPER</span>
-            </div></AvatarComponent
-          >
-        </div>
-        <div
-          class="w-full flex justify-center items-center gap-10 mt-10 lg:gap-32"
+            <span>FULL STACK</span><span>DEVELOPER</span>
+          </div></AvatarComponent
         >
-          <AvatarComponent>
-            <div
-              class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
-            >
-              <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
-                >DREW</span
-              >
-              <span>PROJECT</span><span>MANAGER</span>
-            </div></AvatarComponent
+        <AvatarComponent class="w-1/3 lg:w-auto">
+          <div
+            class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
           >
-          <AvatarComponent>
-            <div
-              class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
+            <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
+              >WE</span
             >
-              <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
-                >YAN</span
-              >
-              <span>NFT</span><span>ARTIST</span>
-            </div></AvatarComponent
+            <span>FULL STACK</span><span>DEVELOPER</span>
+          </div></AvatarComponent
+        >
+
+        <AvatarComponent class="w-1/3 lg:w-auto">
+          <div
+            class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
           >
-        </div>
+            <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
+              >DREW</span
+            >
+            <span>PROJECT</span><span>MANAGER</span>
+          </div></AvatarComponent
+        >
+        <AvatarComponent class="w-1/3 lg:w-auto">
+          <div
+            class="flex text-center flex-col w-full h-full justify-center items-center gap-1"
+          >
+            <span class="font-pirata-one text-[#FFA500] text-3xl lg:text-5xl"
+              >YAN</span
+            >
+            <span>NFT</span><span>ARTIST</span>
+          </div></AvatarComponent
+        >
       </div>
       <div class="flex grow"></div>
       <FooterComponent />
