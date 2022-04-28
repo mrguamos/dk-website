@@ -8,14 +8,18 @@
         target="_blank"
         ><FBIcon class="w-8 h-8"
       /></a>
-      <a href="https://twitter.com/DK_DefiKnight"
+      <a href="https://twitter.com/DK_DefiKnight" target="_blank"
         ><TwitterIcon class="w-8 h-8"
       /></a>
-      <a href="https://www.instagram.com/dk_defiknight/"
+      <a href="https://www.instagram.com/dk_defiknight/" target="_blank"
         ><IGIcon class="w-8 h-8"
       /></a>
-      <a href="https://t.me/DefiKnight"><TGIcon class="w-8 h-8" /></a>
-      <a href="https://discord.gg/skPvBu3k"><DiscordIcon class="w-8 h-8" /></a>
+      <a href="https://t.me/DefiKnight" target="_blank"
+        ><TGIcon class="w-8 h-8"
+      /></a>
+      <a href="https://discord.gg/skPvBu3k" target="_blank"
+        ><DiscordIcon class="w-8 h-8"
+      /></a>
     </div>
 
     <div class="flex justify-center items-center text-center mb-2 lg:mb-0">
