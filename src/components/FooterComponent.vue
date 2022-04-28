@@ -3,10 +3,19 @@
     class="flex flex-col lg:flex-row w-full items-center justify-between py-2 lg:py-0"
   >
     <div class="flex space-x-2 animate-bounce my-10 lg:my-0">
-      <FBIcon class="w-8 h-8" /><TwitterIcon class="w-8 h-8" /><IGIcon
-        class="w-8 h-8"
-      /><TGIcon class="w-8 h-8" />
-      <DiscordIcon class="w-8 h-8" />
+      <a
+        href="https://www.facebook.com/profile.php?id=100078910695463"
+        target="_blank"
+        ><FBIcon class="w-8 h-8"
+      /></a>
+      <a href="https://twitter.com/DK_DefiKnight"
+        ><TwitterIcon class="w-8 h-8"
+      /></a>
+      <a href="https://www.instagram.com/dk_defiknight/"
+        ><IGIcon class="w-8 h-8"
+      /></a>
+      <a href="https://t.me/DefiKnight"><TGIcon class="w-8 h-8" /></a>
+      <a href="https://discord.gg/skPvBu3k"><DiscordIcon class="w-8 h-8" /></a>
     </div>
 
     <div class="flex justify-center items-center text-center mb-2 lg:mb-0">
