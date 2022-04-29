@@ -10,8 +10,28 @@
         <DKIcon class="h-12 w-12 animate-spin" />
       </div>
       <div class="mr-5 lg:hidden flex items-center">
-        <button class="inline-flex items-center">
+        <button class="inline-flex items-center" @click="navMenu = !navMenu">
           <FontAwesomeIcon :icon="['fas', 'bars']" size="lg" />
+          <div
+            class="absolute top-12 right-2 space-x-1 mr-2"
+            :class="{ hidden: navMenu }"
+          >
+            <ul class="text-right mr-1 pt-1">
+              <li><a href="#home">HOME</a></li>
+              <li><a href="#game">GAME</a></li>
+              <li><a href="#nft">NFTS</a></li>
+              <li><a href="#about">ABOUT US</a></li>
+              <li>
+                <a href="https://whitepaper.defiknight.io" target="_blank">
+                  WHITEPAPER
+                  <FontAwesomeIcon
+                    :icon="['fas', 'external-link-alt']"
+                    class="ml-1"
+                  />
+                </a>
+              </li>
+            </ul>
+          </div>
         </button>
       </div>
       <div class="gap-5 mr-5 hidden lg:flex">
@@ -107,6 +127,8 @@
   onMounted(async () => {
     window.addEventListener('scroll', scrollListener)
   })
+
+  const navMenu = ref(true)
 
   onUnmounted(() => {
     window.removeEventListener('scroll', scrollListener)
