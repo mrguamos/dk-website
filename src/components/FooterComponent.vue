@@ -17,7 +17,7 @@
       <a href="https://t.me/DefiKnight" target="_blank"
         ><TGIcon class="w-8 h-8"
       /></a>
-      <a href="https://discord.gg/skPvBu3k" target="_blank"
+      <a href="https://discord.gg/Z6E9JuV3Bh" target="_blank"
         ><DiscordIcon class="w-8 h-8"
       /></a>
     </div>
