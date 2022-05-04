@@ -79,6 +79,7 @@
   import c2 from '/src/assets/commanders/c2.png'
   import c3 from '/src/assets/commanders/c3.png'
   import c4 from '/src/assets/commanders/c4.png'
+  import c5 from '/src/assets/commanders/c5.png'
   import k0 from '/src/assets/knights/k0.png'
   import k1 from '/src/assets/knights/k1.png'
   import k2 from '/src/assets/knights/k2.png'
@@ -95,7 +96,7 @@
     })
   })
 
-  const slides = ref([c0, c1, c2, c3, c4, k0, k1, k2, k3, k4, k5])
+  const slides = ref([c0, c1, c2, c3, c4, c5, k0, k1, k2, k3, k4, k5])
   slides.value = slides.value.sort(() => Math.random() - 0.5)
 </script>
 
