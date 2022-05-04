@@ -23,8 +23,8 @@
           <span
             class="font-pirata-one text-5xl lg:text-7xl text-white uppercase"
           >
-            CREATE THE STRONGEST GUILD AND CONQUER LANDS IN THE
-            <span class="text-[#FFA500]">BLOCKCHAIN</span>
+            CREATE THE <span class="text-[#FFA500]">STRONGEST GUILD</span> AND
+            <span class="text-[#FFA500]">CONQUER LANDS</span> IN THE BLOCKCHAIN
           </span>
         </div>
         <div
