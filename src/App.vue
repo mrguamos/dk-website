@@ -3,7 +3,10 @@
     <div
       class="flex fixed w-full top-0 z-10 items-center justify-between h-20 duration-1000"
       :class="
-        scroll ? 'lg:bg-black lg:shadow-lg lg:bg-opacity-50' : 'bg-transparent'
+        (scroll
+          ? 'lg:bg-black lg:shadow-lg lg:bg-opacity-50'
+          : 'bg-transparent',
+        navMenu ? 'bg-transparent' : 'bg-black')
       "
     >
       <div class="ml-5 flex items-center">
@@ -13,24 +16,121 @@
         <button class="inline-flex items-center" @click="navMenu = !navMenu">
           <FontAwesomeIcon :icon="['fas', 'bars']" size="lg" />
           <div
-            class="absolute top-12 right-2 space-x-1 mr-2"
+            class="absolute w-full h-screen top-12 right-2 mt-5 space-x-1 backdrop-blur-lg"
             :class="{ hidden: navMenu }"
           >
-            <ul class="text-right mr-1 pt-1">
-              <li><a href="#home">HOME</a></li>
-              <li><a href="#game">GAME</a></li>
-              <li><a href="#nft">NFTS</a></li>
-              <li><a href="#about">ABOUT US</a></li>
+            <ul class="items-center m-2 p-2">
+              <li>
+                <a href="#home">
+                  <div
+                    class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
+                  >
+                    <span class="absolute text-2xl font-bold text-white"
+                      >HOME</span
+                    >
+
+                    <video
+                      class="object-contain object-bottom"
+                      autoplay
+                      loop
+                      muted
+                      playsinline
+                    >
+                      <source :src="flare" type="video/mp4" />
+                    </video>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#game">
+                  <div
+                    class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
+                  >
+                    <span class="absolute text-2xl font-bold text-white"
+                      >GAME</span
+                    >
+
+                    <video
+                      class="object-contain object-bottom"
+                      autoplay
+                      loop
+                      muted
+                      playsinline
+                    >
+                      <source :src="flare" type="video/mp4" />
+                    </video>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#nft">
+                  <div
+                    class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
+                  >
+                    <span class="absolute text-2xl font-bold text-white"
+                      >NFTS</span
+                    >
+
+                    <video
+                      class="object-contain object-bottom"
+                      autoplay
+                      loop
+                      muted
+                      playsinline
+                    >
+                      <source :src="flare" type="video/mp4" />
+                    </video>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#about">
+                  <div
+                    class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
+                  >
+                    <span class="absolute text-2xl font-bold text-white"
+                      >ABOUT US</span
+                    >
+
+                    <video
+                      class="object-contain object-bottom"
+                      autoplay
+                      loop
+                      muted
+                      playsinline
+                    >
+                      <source :src="flare" type="video/mp4" />
+                    </video>
+                  </div>
+                </a>
+              </li>
+
               <li>
                 <a href="https://whitepaper.defiknight.io" target="_blank">
-                  WHITEPAPER
-                  <FontAwesomeIcon
-                    :icon="['fas', 'external-link-alt']"
-                    class="ml-1"
-                  />
+                  <div
+                    class="inline-flex relative w-72 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
+                  >
+                    <span class="absolute text-2xl font-bold text-white">
+                      WHITEPAPER
+                      <FontAwesomeIcon
+                        :icon="['fas', 'external-link-alt']"
+                        class="ml-1"
+                    /></span>
+
+                    <video
+                      class="object-contain object-bottom"
+                      autoplay
+                      loop
+                      muted
+                      playsinline
+                    >
+                      <source :src="flare" type="video/mp4" />
+                    </video>
+                  </div>
                 </a>
               </li>
             </ul>
+            <FooterComponent />
           </div>
         </button>
       </div>
@@ -74,6 +174,8 @@
   import AboutComponent from './components/AboutComponent.vue'
   import GameComponent from './components/GameComponent.vue'
   import DKIcon from './components/DKIcon.vue'
+  import flare from '/src/assets/flare.mp4'
+  import FooterComponent from './components/FooterComponent.vue'
 
   useHead({
     meta: [
