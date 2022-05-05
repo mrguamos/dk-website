@@ -16,7 +16,7 @@
         <button class="inline-flex items-center" @click="navMenu = !navMenu">
           <FontAwesomeIcon :icon="['fas', 'bars']" size="lg" />
           <div
-            class="absolute w-full h-screen top-12 right-2 mt-5 space-x-1 backdrop-blur-lg"
+            class="absolute w-full h-screen top-12 right-0 mt-5 space-x-1 backdrop-blur-lg"
             :class="{ hidden: navMenu }"
           >
             <ul class="items-center m-2 p-2">
