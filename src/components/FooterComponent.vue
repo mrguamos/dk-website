@@ -2,7 +2,7 @@
   <div
     class="flex flex-col lg:flex-row w-full items-center justify-between py-2 lg:py-0"
   >
-    <div class="flex space-x-2 animate-bounce my-10 lg:my-0">
+    <div class="flex space-x-2 animate-bounce lg:my-0">
       <a
         href="https://www.facebook.com/profile.php?id=100078910695463"
         target="_blank"
