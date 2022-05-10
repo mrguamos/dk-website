@@ -27,5 +27,8 @@
         <img src="/src/assets/start.png" class="w-96 short:mb-10 tall:mb-0" />
       </a>
     </div>
+    <div class="gap-10 justify-center">
+      <img src="/src/assets/logo-binance.png" />
+    </div>
   </section>
 </template>

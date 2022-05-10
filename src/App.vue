@@ -3,10 +3,11 @@
     <div
       class="flex fixed w-full top-0 z-10 items-center justify-between h-20 duration-1000"
       :class="
-        (scroll
-          ? 'lg:bg-black lg:shadow-lg lg:bg-opacity-50'
-          : 'bg-transparent',
-        navMenu ? 'bg-transparent' : 'bg-black')
+        navMenu
+          ? scroll
+            ? 'lg:bg-black lg:shadow-lg lg:bg-opacity-50'
+            : 'bg-transparent'
+          : 'bg-black'
       "
     >
       <div class="ml-5 flex items-center">
