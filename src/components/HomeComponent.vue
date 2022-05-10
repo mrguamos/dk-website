@@ -26,9 +26,12 @@
       <a href="https://game.defiknight.io/" target="_blank">
         <img src="/src/assets/start.png" class="w-96 short:mb-10 tall:mb-0" />
       </a>
-    </div>
-    <div class="gap-10 justify-center">
-      <img src="/src/assets/logo-binance.png" />
+      <div class="justify-center">
+        <img
+          class="w-44 short:mb-10 tall:mb-0"
+          src="/src/assets/logo-binance.png"
+        />
+      </div>
     </div>
   </section>
 </template>
