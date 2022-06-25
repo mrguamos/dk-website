@@ -24,6 +24,7 @@
               <li>
                 <a href="#home">
                   <div
+                    v-if="!isMobile"
                     class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
                   >
                     <span class="absolute text-2xl font-bold text-white"
@@ -40,11 +41,18 @@
                       <source :src="flare" type="video/mp4" />
                     </video>
                   </div>
+                  <button
+                    v-if="isMobile"
+                    class="m-2 p-3 border border-white rounded-full text-2xl font-bold"
+                  >
+                    HOME
+                  </button>
                 </a>
               </li>
               <li>
                 <a href="#game">
                   <div
+                    v-if="!isMobile"
                     class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
                   >
                     <span class="absolute text-2xl font-bold text-white"
@@ -61,11 +69,18 @@
                       <source :src="flare" type="video/mp4" />
                     </video>
                   </div>
+                  <button
+                    v-if="isMobile"
+                    class="m-2 p-3 border border-white rounded-full text-2xl font-bold"
+                  >
+                    GAME
+                  </button>
                 </a>
               </li>
               <li>
                 <a href="#nft">
                   <div
+                    v-if="!isMobile"
                     class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
                   >
                     <span class="absolute text-2xl font-bold text-white"
@@ -82,11 +97,18 @@
                       <source :src="flare" type="video/mp4" />
                     </video>
                   </div>
+                  <button
+                    v-if="isMobile"
+                    class="m-2 p-3 border border-white rounded-full text-2xl font-bold"
+                  >
+                    NFTS
+                  </button>
                 </a>
               </li>
               <li>
                 <a href="#about">
                   <div
+                    v-if="!isMobile"
                     class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
                   >
                     <span class="absolute text-2xl font-bold text-white"
@@ -103,20 +125,24 @@
                       <source :src="flare" type="video/mp4" />
                     </video>
                   </div>
+                  <button
+                    v-if="isMobile"
+                    class="m-2 p-3 border border-white rounded-full text-2xl font-bold"
+                  >
+                    ABOUT US
+                  </button>
                 </a>
               </li>
 
               <li>
                 <a href="https://whitepaper.defiknight.io" target="_blank">
                   <div
-                    class="inline-flex relative w-72 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
+                    v-if="!isMobile"
+                    class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
                   >
-                    <span class="absolute text-2xl font-bold text-white">
-                      WHITEPAPER
-                      <FontAwesomeIcon
-                        :icon="['fas', 'external-link-alt']"
-                        class="ml-1"
-                    /></span>
+                    <span class="absolute text-2xl font-bold text-white"
+                      >WHITEPAPER</span
+                    >
 
                     <video
                       class="object-contain object-bottom"
@@ -128,6 +154,12 @@
                       <source :src="flare" type="video/mp4" />
                     </video>
                   </div>
+                  <button
+                    v-if="isMobile"
+                    class="m-2 p-3 border border-white rounded-full text-2xl font-bold"
+                  >
+                    WHITEPAPER
+                  </button>
                 </a>
               </li>
             </ul>
@@ -177,6 +209,8 @@
   import DKIcon from './components/DKIcon.vue'
   import flare from '/src/assets/flare.mp4'
   import FooterComponent from './components/FooterComponent.vue'
+
+  const isMobile = ref(false)
 
   useHead({
     meta: [
@@ -229,6 +263,7 @@
   const scroll = ref(false)
   onMounted(async () => {
     window.addEventListener('scroll', scrollListener)
+    isMobile.value = window.matchMedia('(any-pointer:coarse)').matches
   })
 
   const navMenu = ref(true)
