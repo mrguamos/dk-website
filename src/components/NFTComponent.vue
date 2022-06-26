@@ -66,6 +66,7 @@
               </video>
             </div>
             <button
+              v-if="isMobile"
               class="m-2 p-3 border border-white rounded-full text-2xl font-bold"
             >
               PLAY NOW
