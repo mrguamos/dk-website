@@ -242,6 +242,11 @@
         property: 'og:type',
         content: 'website',
       },
+      //<meta name="coinzilla" content="9999d80ee00a916f23b91981ae0d5e1a" />
+      {
+        name: 'coinzilla',
+        content: '9999d80ee00a916f23b91981ae0d5e1a',
+      },
     ],
     script: [
       {
