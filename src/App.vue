@@ -248,13 +248,6 @@
         content: '9999d80ee00a916f23b91981ae0d5e1a',
       },
     ],
-    script: [
-      {
-        async: '',
-        src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3072480337071983',
-        crossorigin: 'anonymous',
-      },
-    ],
   })
 
   const scrollListener = () => {
