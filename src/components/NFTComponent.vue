@@ -48,7 +48,6 @@
           </span>
           <a href="https://game.defiknight.io/" target="_blank">
             <div
-              v-if="!isMobile"
               class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
             >
               <span class="absolute text-2xl font-bold text-white"
@@ -65,12 +64,12 @@
                 <source :src="flare" type="video/mp4" />
               </video>
             </div>
-            <button
+            <!-- <button
               v-if="isMobile"
               class="m-2 p-3 border border-white rounded-full text-2xl font-bold"
             >
               PLAY NOW
-            </button>
+            </button> -->
           </a>
         </div>
       </div>
