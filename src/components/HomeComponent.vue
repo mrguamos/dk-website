@@ -32,6 +32,17 @@
           src="/src/assets/logo-binance.png"
         />
       </div>
+      <div class="justify-center">
+        <a href="https://contractwolf.io/projects/defiknight" target="_blank">
+          <img
+            class="w-44 short:mb-10 tall:mb-0"
+            src="/src/assets/cw-audit.png"
+          />
+        </a>
+        <div class="flex justify-center items-center text-center text-xs">
+          <span>(Audit)</span>
+        </div>
+      </div>
     </div>
   </section>
 </template>
