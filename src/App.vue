@@ -162,6 +162,37 @@
                   </button>
                 </a>
               </li>
+              <li>
+                <a
+                  href="https://contractwolf.io/projects/defiknight"
+                  target="_blank"
+                >
+                  <div
+                    v-if="!isMobile"
+                    class="inline-flex relative w-56 h-16 justify-center items-center self-center mt-5 rounded-full border-4 overflow-hidden"
+                  >
+                    <span class="absolute text-2xl font-bold text-white"
+                      >AUDIT</span
+                    >
+
+                    <video
+                      class="object-contain object-bottom"
+                      autoplay
+                      loop
+                      muted
+                      playsinline
+                    >
+                      <source :src="flare" type="video/mp4" />
+                    </video>
+                  </div>
+                  <button
+                    v-if="isMobile"
+                    class="m-2 p-3 border border-white rounded-full text-2xl font-bold"
+                  >
+                    AUDIT
+                  </button>
+                </a>
+              </li>
             </ul>
             <FooterComponent />
           </div>
@@ -183,6 +214,15 @@
         <div>
           <a href="https://whitepaper.defiknight.io" target="_blank">
             WHITEPAPER
+            <FontAwesomeIcon
+              :icon="['fas', 'external-link-alt']"
+              class="ml-1"
+            />
+          </a>
+        </div>
+        <div>
+          <a href="https://contractwolf.io/projects/defiknight" target="_blank">
+            AUDIT
             <FontAwesomeIcon
               :icon="['fas', 'external-link-alt']"
               class="ml-1"

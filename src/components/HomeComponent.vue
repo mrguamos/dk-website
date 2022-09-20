@@ -24,24 +24,13 @@
         </span>
       </div>
       <a href="https://game.defiknight.io/" target="_blank">
-        <img src="/src/assets/start.png" class="w-96 short:mb-10 tall:mb-0" />
+        <img src="/src/assets/start.png" class="w-96" />
       </a>
-      <div class="justify-center">
-        <img
-          class="w-44 short:mb-10 tall:mb-0"
-          src="/src/assets/logo-binance.png"
-        />
-      </div>
-      <div class="justify-center">
+      <div class="justify-center short:mb-10 tall:mb-0">
+        <img class="w-44" src="/src/assets/logo-binance.png" />
         <a href="https://contractwolf.io/projects/defiknight" target="_blank">
-          <img
-            class="w-44 short:mb-10 tall:mb-0"
-            src="/src/assets/cw-audit.png"
-          />
+          <img class="w-44" src="/src/assets/cw-audit.png" />
         </a>
-        <div class="flex justify-center items-center text-center text-xs">
-          <span>(Audit)</span>
-        </div>
       </div>
     </div>
   </section>
